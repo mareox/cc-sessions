@@ -107,9 +107,9 @@ Configuration-driven protocol system that auto-adapts based on user preferences:
 
 ### Python (No Node.js required)
 ```bash
-pipx install cc-sessions          # Recommended
-pip install cc-sessions            # Direct install
-uv pip install cc-sessions         # UV package manager
+uv pip install cc-sessions         # UV package manager (recommended - fastest)
+pipx install cc-sessions           # pipx install
+pip install cc-sessions            # Direct install (slowest)
 ```
 
 ### JavaScript (No Python required)
