@@ -21,27 +21,27 @@
   },
   "blocked_actions": {
     "implementation_only_tools": [
-      "Edit",
       "Write",
+      "Edit",
       "MultiEdit",
       "NotebookEdit"
     ],
     "bash_read_patterns": [],
     "bash_write_patterns": [],
-    "extrasafe": false
+    "extrasafe": true
   },
   "git_preferences": {
-    "add_pattern": "ask",
+    "add_pattern": "all",
     "default_branch": "main",
     "commit_style": "conventional",
-    "auto_merge": false,
-    "auto_push": false,
+    "auto_merge": true,
+    "auto_push": true,
     "has_submodules": false
   },
   "environment": {
     "os": "linux",
-    "shell": "bash",
-    "developer_name": "developer"
+    "shell": "zsh",
+    "developer_name": "MareoX"
   },
   "features": {
     "branch_enforcement": true,
