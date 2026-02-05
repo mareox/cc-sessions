@@ -19,29 +19,29 @@
       "squish"
     ]
   },
+  "git_preferences": {
+    "add_pattern": "ask",
+    "default_branch": "main",
+    "commit_style": "conventional",
+    "auto_merge": false,
+    "auto_push": false,
+    "has_submodules": false
+  },
+  "environment": {
+    "os": "linux",
+    "shell": "bash",
+    "developer_name": "developer"
+  },
   "blocked_actions": {
     "implementation_only_tools": [
-      "Write",
       "Edit",
+      "Write",
       "MultiEdit",
       "NotebookEdit"
     ],
     "bash_read_patterns": [],
     "bash_write_patterns": [],
-    "extrasafe": true
-  },
-  "git_preferences": {
-    "add_pattern": "all",
-    "default_branch": "main",
-    "commit_style": "conventional",
-    "auto_merge": true,
-    "auto_push": true,
-    "has_submodules": false
-  },
-  "environment": {
-    "os": "linux",
-    "shell": "zsh",
-    "developer_name": "MareoX"
+    "extrasafe": false
   },
   "features": {
     "branch_enforcement": true,

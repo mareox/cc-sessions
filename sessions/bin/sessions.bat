@@ -1,2 +1,2 @@
 @echo off
-node "%~dp0..\api\index.js" %*
+python -m sessions.api %*
