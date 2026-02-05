@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-exec node "sessions/api/index.js" "$@"
+
+exec python3 -m sessions.api "$@"
